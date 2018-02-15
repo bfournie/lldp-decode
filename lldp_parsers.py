@@ -16,10 +16,10 @@
 import binascii
 
 from construct import core
+import lldp_tlvs as tlv
 import netaddr
 
 from ironic_inspector.common.i18n import _
-from ironic_inspector.common import lldp_tlvs as tlv
 from ironic_inspector import utils
 
 LOG = utils.getProcessingLogger(__name__)
